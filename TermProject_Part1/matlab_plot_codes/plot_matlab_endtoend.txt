@@ -1,0 +1,45 @@
+%Data For R1
+data = [4434 4478 4564;
+4434 4480 4556;
+4437 4476 4552;
+4445 4478 4561;
+4448 4481 4561;
+4440 4470 4558;
+4447 4487 4553;
+4449 4481 4557;
+4440 4476 4556;
+4441 4490 4557]
+
+
+%Data For R2
+%data = [4437 4472 4568;
+%4437 4482 4560;
+%4440 4479 4559;
+%4442 4477 4563;
+%4450 4482 4557;
+%4441 4485 4564;
+%4442 4480 4558;
+%4445 4480 4558;
+%4441 4475 4557;
+%4442 4488 4553]
+
+
+dmean = mean(data);                                                 % Mean
+display(dmean)
+dci  = std(data)*tinv(0.975,size(data,1)-1);                        % Confidence Intervals
+xt = [1:3];                                                         % X-Ticks
+xtd = repmat(xt, size(data,1), 1);                                  % X-Ticks For Data
+sb = [xt'-ones(size(data,2),1)*0.1,  xt'+ones(size(data,2),1)*0.1]; % Short Bar X
+lb = [xt'-ones(size(data,2),1)*0.2,  xt'+ones(size(data,2),1)*0.2]; % Long Bar X
+figure(1)
+plot(xt, data, '+')
+hold on
+for k1 = 1:size(data,2)
+    plot(lb(k1,:), [1 1]*dmean(k1), sb(k1,:), [1 1]*(dmean(k1)-dci(k1)), sb(k1,:), [1 1]*(dmean(k1)+dci(k1)), '-k')
+end
+hold off
+set(gca, 'XTick', xt, 'XTickLabel', {'Exp:1','Exp:2','Exp:3'})
+%title('Router 1 Delays vs. Experiment Graph')
+%title('Router 2 Delays vs. Experiment Graph')
+xlabel('Experiment No')
+ylabel('End-to-End Delay (ms)')

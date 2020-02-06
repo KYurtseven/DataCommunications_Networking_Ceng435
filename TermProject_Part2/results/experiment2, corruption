@@ -1,0 +1,51 @@
+%0.2 corruption
+tc qdisc change dev [INTERFACE] root netem loss 0% corrupt 0.2% duplicate 0% delay 3 ms reorder 0% 0%
+140578, 141069, 145915, 146172, 144670, 143355, 144886, 141612, 145233, 141821
+
+%10 corruption
+tc qdisc change dev [INTERFACE] root netem loss 0% corrupt 10% duplicate 0% delay 3 ms reorder 0% 0%
+2099451, 2151727 ,2126164 ,2129343, 2100840, 2025900, 2131476, 2128314, 2214962, 2224328
+
+%20 corruption
+tc qdisc change dev [INTERFACE] root netem loss 0% corrupt 20% duplicate 0% delay 3 ms reorder 0% 0%
+
+4754371, 4866817, 4659214, 5009555, 4774140, 4745434, 4780624, 4912161, 4985516, 5055189
+
+
+data=[
+140578 2099451 4754371;
+141069 2151727 4866817;
+145915 2126164 4659214;
+146172 2129343 5009555;
+144670 2100840 4774140;
+143355 2025900 4745434;
+144886 2131476 4780624;
+141612 2128314 4912161;
+145233 2214962 4985516;
+141821 2224328 5055189;
+]
+
+
+
+
+
+dmean = mean(data);                                                 % Mean
+display(dmean)
+dci  = std(data)*tinv(0.975,size(data,1)-1);                        % Confidence Intervals
+xt = [1:3];                                                         % X-Ticks
+xtd = repmat(xt, size(data,1), 1);                                  % X-Ticks For Data
+sb = [xt'-ones(size(data,2),1)*0.1,  xt'+ones(size(data,2),1)*0.1]; % Short Bar X
+lb = [xt'-ones(size(data,2),1)*0.2,  xt'+ones(size(data,2),1)*0.2]; % Long Bar X
+figure(1)
+plot(xt, data, '+')
+hold on
+for k1 = 1:size(data,2)
+    plot(lb(k1,:), [1 1]*dmean(k1), sb(k1,:), [1 1]*(dmean(k1)-dci(k1)), sb(k1,:), [1 1]*(dmean(k1)+dci(k1)), '-k')
+end
+hold off
+set(gca, 'XTick', xt, 'XTickLabel', {'%0.2 corrupt','%10 corrupt','%20 corrupt'})
+title('Experiment 2, File transfer time(ms) vs Corrrupt Graph')
+xlabel('Experiment Name')
+ylabel('File transfer time(ms)')
+
+

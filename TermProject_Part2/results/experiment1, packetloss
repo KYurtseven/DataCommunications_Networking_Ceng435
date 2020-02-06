@@ -1,0 +1,49 @@
+%0.5 loss
+tc qdisc change dev [INTERFACE] root netem loss 0.5% corrupt 0% duplicate 0% delay 3 ms reorder 0% 0%
+235902, 242977, 249409, 246088, 245640, 248352, 237726, 249578, 243676, 252167
+%10 loss
+tc qdisc change dev [INTERFACE] root netem loss 10% corrupt 0% duplicate 0% delay 3 ms reorder 0% 0%
+2297831, 2281562, 2373962, 2203968 ,2345911, 2287307, 2372917, 2271345, 2315430, 2228700
+
+%20 loss
+tc qdisc change dev [INTERFACE] root netem loss 20% corrupt 0% duplicate 0% delay 3 ms reorder 0% 0%
+4807778, 4879913, 4906252, 4776353, 4891227, 4860285, 4808935, 4805958, 4839939, 4870948
+
+
+
+data = [
+235902 2297831 4807778;
+242977 2281562 4879913;
+249409 2373962 4906252;
+246088 2203968 4776353;
+245640 2345911 4891227;
+248352 2287307 4860285;
+237726 2372917 4808935;
+249578 2271345 4805958;
+243676 2315430 4839939;
+252167 2228700 4870948;
+]
+
+
+
+dmean = mean(data);                                                 % Mean
+display(dmean)
+dci  = std(data)*tinv(0.975,size(data,1)-1);                        % Confidence Intervals
+xt = [1:3];                                                         % X-Ticks
+xtd = repmat(xt, size(data,1), 1);                                  % X-Ticks For Data
+sb = [xt'-ones(size(data,2),1)*0.1,  xt'+ones(size(data,2),1)*0.1]; % Short Bar X
+lb = [xt'-ones(size(data,2),1)*0.2,  xt'+ones(size(data,2),1)*0.2]; % Long Bar X
+figure(1)
+plot(xt, data, '+')
+hold on
+for k1 = 1:size(data,2)
+    plot(lb(k1,:), [1 1]*dmean(k1), sb(k1,:), [1 1]*(dmean(k1)-dci(k1)), sb(k1,:), [1 1]*(dmean(k1)+dci(k1)), '-k')
+end
+hold off
+set(gca, 'XTick', xt, 'XTickLabel', {'%0.5 packet loss','%10 packet loss','%20 packet loss'})
+title('Experiment 1, File transfer time(ms) vs Packet loss Graph')
+xlabel('Experiment Name')
+ylabel('File transfer time(ms)')
+
+
+

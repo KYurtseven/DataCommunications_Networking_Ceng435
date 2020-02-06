@@ -1,0 +1,1018 @@
+Experiment 3.1:
+	End-to-End Delays of 43 reached messages from r1 :
+			Packet No = 0 | Delay = 132 
+			Packet No = 1 | Delay = 141 
+			Packet No = 4 | Delay = 142 
+			Packet No = 2 | Delay = 143 
+			Packet No = 5 | Delay = 144 
+			Packet No = 3 | Delay = 145 
+			Packet No = 6 | Delay = 149 
+			Packet No = 8 | Delay = 153 
+			Packet No = 7 | Delay = 155 
+			Packet No = 10 | Delay = 156 
+			Packet No = 15 | Delay = 219 
+			Packet No = 13 | Delay = 352 
+			Packet No = 9 | Delay = 484 
+			Packet No = 12 | Delay = 619 
+			Packet No = 11 | Delay = 755 
+			Packet No = 16 | Delay = 890 
+			Packet No = 17 | Delay = 1032 
+			Packet No = 19 | Delay = 1171 
+			Packet No = 14 | Delay = 1301 
+			Packet No = 22 | Delay = 1434 
+			Packet No = 23 | Delay = 1577 
+			Packet No = 18 | Delay = 1709 
+			Packet No = 20 | Delay = 1851 
+			Packet No = 21 | Delay = 1984 
+			Packet No = 26 | Delay = 2120 
+			Packet No = 25 | Delay = 2254 
+			Packet No = 24 | Delay = 2387 
+			Packet No = 27 | Delay = 2530 
+			Packet No = 31 | Delay = 2658 
+			Packet No = 29 | Delay = 2795 
+			Packet No = 32 | Delay = 2932 
+			Packet No = 28 | Delay = 3075 
+			Packet No = 34 | Delay = 3205 
+			Packet No = 30 | Delay = 3338 
+			Packet No = 33 | Delay = 3481 
+			Packet No = 37 | Delay = 3612 
+			Packet No = 36 | Delay = 3746 
+			Packet No = 35 | Delay = 3887 
+			Packet No = 38 | Delay = 4025 
+			Packet No = 39 | Delay = 4157 
+			Packet No = 42 | Delay = 4298 
+			Packet No = 43 | Delay = 4434 
+			Packet No = 54 | Delay = 4562 
+
+
+	End-to-End Delays of 43 reached messages from r2 :
+			Packet No = 0 | Delay = 133 
+			Packet No = 1 | Delay = 138 
+			Packet No = 2 | Delay = 140 
+			Packet No = 4 | Delay = 146 
+			Packet No = 3 | Delay = 147 
+			Packet No = 7 | Delay = 150 
+			Packet No = 5 | Delay = 151 
+			Packet No = 8 | Delay = 153 
+			Packet No = 10 | Delay = 157 
+			Packet No = 6 | Delay = 158 
+			Packet No = 11 | Delay = 212 
+			Packet No = 9 | Delay = 349 
+			Packet No = 13 | Delay = 487 
+			Packet No = 12 | Delay = 626 
+			Packet No = 14 | Delay = 755 
+			Packet No = 19 | Delay = 891 
+			Packet No = 16 | Delay = 1030 
+			Packet No = 15 | Delay = 1164 
+			Packet No = 17 | Delay = 1306 
+			Packet No = 21 | Delay = 1440 
+			Packet No = 18 | Delay = 1571 
+			Packet No = 22 | Delay = 1710 
+			Packet No = 23 | Delay = 1843 
+			Packet No = 25 | Delay = 1979 
+			Packet No = 20 | Delay = 2115 
+			Packet No = 24 | Delay = 2258 
+			Packet No = 30 | Delay = 2388 
+			Packet No = 27 | Delay = 2525 
+			Packet No = 29 | Delay = 2659 
+			Packet No = 26 | Delay = 2796 
+			Packet No = 28 | Delay = 2932 
+			Packet No = 32 | Delay = 3068 
+			Packet No = 31 | Delay = 3209 
+			Packet No = 36 | Delay = 3338 
+			Packet No = 35 | Delay = 3475 
+			Packet No = 33 | Delay = 3611 
+			Packet No = 37 | Delay = 3751 
+			Packet No = 34 | Delay = 3889 
+			Packet No = 40 | Delay = 4018 
+			Packet No = 41 | Delay = 4154 
+			Packet No = 39 | Delay = 4291 
+			Packet No = 38 | Delay = 4429 
+			Packet No = 52 | Delay = 4566 
+
+
+						Slope of delay on the path r1 is 103 unit.
+						Slope of delay on the path r2 is 103 unit.
+
+
+						Total End-to-End delay of 'sensor.txt' from path r1 is 4564 ms.
+						Total End-to-End delay of 'sensor.txt' from path r2 is 4568 ms.
+
+
+
+
+
+
+Experiment 3.2:
+	End-to-End Delays of 43 reached messages from r1 :
+			Packet No = 0 | Delay = 124 
+			Packet No = 4 | Delay = 125 
+			Packet No = 2 | Delay = 126 
+			Packet No = 5 | Delay = 130 
+			Packet No = 3 | Delay = 131 
+			Packet No = 1 | Delay = 132 
+			Packet No = 9 | Delay = 136 
+			Packet No = 7 | Delay = 137 
+			Packet No = 8 | Delay = 138 
+			Packet No = 6 | Delay = 143 
+			Packet No = 11 | Delay = 203 
+			Packet No = 13 | Delay = 339 
+			Packet No = 12 | Delay = 475 
+			Packet No = 15 | Delay = 611 
+			Packet No = 14 | Delay = 748 
+			Packet No = 10 | Delay = 886 
+			Packet No = 16 | Delay = 1018 
+			Packet No = 17 | Delay = 1157 
+			Packet No = 18 | Delay = 1290 
+			Packet No = 19 | Delay = 1428 
+			Packet No = 22 | Delay = 1562 
+			Packet No = 23 | Delay = 1699 
+			Packet No = 20 | Delay = 1839 
+			Packet No = 24 | Delay = 1970 
+			Packet No = 25 | Delay = 2106 
+			Packet No = 26 | Delay = 2243 
+			Packet No = 21 | Delay = 2378 
+			Packet No = 27 | Delay = 2514 
+			Packet No = 31 | Delay = 2655 
+			Packet No = 29 | Delay = 2791 
+			Packet No = 28 | Delay = 2922 
+			Packet No = 30 | Delay = 3058 
+			Packet No = 32 | Delay = 3197 
+			Packet No = 33 | Delay = 3332 
+			Packet No = 40 | Delay = 3465 
+			Packet No = 36 | Delay = 3602 
+			Packet No = 37 | Delay = 3738 
+			Packet No = 34 | Delay = 3874 
+			Packet No = 35 | Delay = 4010 
+			Packet No = 38 | Delay = 4146 
+			Packet No = 41 | Delay = 4281 
+			Packet No = 39 | Delay = 4418 
+			Packet No = 56 | Delay = 4554 
+
+
+	End-to-End Delays of 43 reached messages from r2 :
+			Packet No = 4 | Delay = 127 
+			Packet No = 2 | Delay = 128 
+			Packet No = 0 | Delay = 132 
+			Packet No = 7 | Delay = 133 
+			Packet No = 9 | Delay = 134 
+			Packet No = 1 | Delay = 138 
+			Packet No = 3 | Delay = 140 
+			Packet No = 6 | Delay = 141 
+			Packet No = 5 | Delay = 142 
+			Packet No = 10 | Delay = 144 
+			Packet No = 8 | Delay = 208 
+			Packet No = 14 | Delay = 345 
+			Packet No = 13 | Delay = 477 
+			Packet No = 11 | Delay = 616 
+			Packet No = 15 | Delay = 749 
+			Packet No = 12 | Delay = 891 
+			Packet No = 17 | Delay = 1024 
+			Packet No = 19 | Delay = 1159 
+			Packet No = 16 | Delay = 1296 
+			Packet No = 18 | Delay = 1435 
+			Packet No = 22 | Delay = 1570 
+			Packet No = 25 | Delay = 1701 
+			Packet No = 20 | Delay = 1838 
+			Packet No = 21 | Delay = 1974 
+			Packet No = 23 | Delay = 2112 
+			Packet No = 24 | Delay = 2249 
+			Packet No = 28 | Delay = 2380 
+			Packet No = 27 | Delay = 2515 
+			Packet No = 29 | Delay = 2656 
+			Packet No = 26 | Delay = 2790 
+			Packet No = 33 | Delay = 2928 
+			Packet No = 34 | Delay = 3069 
+			Packet No = 31 | Delay = 3203 
+			Packet No = 30 | Delay = 3338 
+			Packet No = 35 | Delay = 3473 
+			Packet No = 32 | Delay = 3606 
+			Packet No = 36 | Delay = 3739 
+			Packet No = 37 | Delay = 3876 
+			Packet No = 39 | Delay = 4018 
+			Packet No = 40 | Delay = 4147 
+			Packet No = 38 | Delay = 4284 
+			Packet No = 43 | Delay = 4423 
+			Packet No = 59 | Delay = 4558 
+
+
+						Slope of delay on the path r1 is 103 unit.
+						Slope of delay on the path r2 is 103 unit.
+
+
+						Total End-to-End delay of 'sensor.txt' from path r1 is 4556 ms.
+						Total End-to-End delay of 'sensor.txt' from path r2 is 4560 ms.
+
+
+Experiment 3.3:
+	End-to-End Delays of 43 reached messages from r1 :
+			Packet No = 0 | Delay = 120 
+			Packet No = 4 | Delay = 121 
+			Packet No = 2 | Delay = 124 
+			Packet No = 1 | Delay = 125 
+			Packet No = 5 | Delay = 126 
+			Packet No = 3 | Delay = 130 
+			Packet No = 7 | Delay = 131 
+			Packet No = 11 | Delay = 134 
+			Packet No = 8 | Delay = 135 
+			Packet No = 6 | Delay = 137 
+			Packet No = 9 | Delay = 203 
+			Packet No = 10 | Delay = 336 
+			Packet No = 16 | Delay = 475 
+			Packet No = 14 | Delay = 608 
+			Packet No = 13 | Delay = 747 
+			Packet No = 12 | Delay = 880 
+			Packet No = 15 | Delay = 1016 
+			Packet No = 19 | Delay = 1152 
+			Packet No = 22 | Delay = 1290 
+			Packet No = 17 | Delay = 1424 
+			Packet No = 18 | Delay = 1559 
+			Packet No = 20 | Delay = 1698 
+			Packet No = 21 | Delay = 1832 
+			Packet No = 28 | Delay = 1967 
+			Packet No = 24 | Delay = 2105 
+			Packet No = 23 | Delay = 2239 
+			Packet No = 25 | Delay = 2375 
+			Packet No = 27 | Delay = 2513 
+			Packet No = 29 | Delay = 2647 
+			Packet No = 26 | Delay = 2785 
+			Packet No = 30 | Delay = 2921 
+			Packet No = 31 | Delay = 3055 
+			Packet No = 33 | Delay = 3193 
+			Packet No = 32 | Delay = 3327 
+			Packet No = 34 | Delay = 3463 
+			Packet No = 35 | Delay = 3599 
+			Packet No = 37 | Delay = 3735 
+			Packet No = 36 | Delay = 3871 
+			Packet No = 42 | Delay = 4007 
+			Packet No = 38 | Delay = 4143 
+			Packet No = 43 | Delay = 4278 
+			Packet No = 39 | Delay = 4416 
+			Packet No = 62 | Delay = 4550 
+
+
+	End-to-End Delays of 43 reached messages from r2 :
+			Packet No = 0 | Delay = 123 
+			Packet No = 2 | Delay = 127 
+			Packet No = 3 | Delay = 128 
+			Packet No = 1 | Delay = 129 
+			Packet No = 5 | Delay = 132 
+			Packet No = 4 | Delay = 133 
+			Packet No = 6 | Delay = 137 
+			Packet No = 12 | Delay = 138 
+			Packet No = 7 | Delay = 139 
+			Packet No = 8 | Delay = 140 
+			Packet No = 10 | Delay = 207 
+			Packet No = 13 | Delay = 346 
+			Packet No = 9 | Delay = 478 
+			Packet No = 11 | Delay = 609 
+			Packet No = 16 | Delay = 748 
+			Packet No = 14 | Delay = 881 
+			Packet No = 15 | Delay = 1024 
+			Packet No = 17 | Delay = 1158 
+			Packet No = 20 | Delay = 1292 
+			Packet No = 18 | Delay = 1430 
+			Packet No = 21 | Delay = 1569 
+			Packet No = 22 | Delay = 1700 
+			Packet No = 19 | Delay = 1839 
+			Packet No = 25 | Delay = 1974 
+			Packet No = 23 | Delay = 2104 
+			Packet No = 24 | Delay = 2248 
+			Packet No = 30 | Delay = 2380 
+			Packet No = 27 | Delay = 2516 
+			Packet No = 26 | Delay = 2648 
+			Packet No = 29 | Delay = 2786 
+			Packet No = 28 | Delay = 2928 
+			Packet No = 32 | Delay = 3064 
+			Packet No = 31 | Delay = 3200 
+			Packet No = 37 | Delay = 3333 
+			Packet No = 35 | Delay = 3467 
+			Packet No = 38 | Delay = 3608 
+			Packet No = 33 | Delay = 3740 
+			Packet No = 34 | Delay = 3879 
+			Packet No = 36 | Delay = 4008 
+			Packet No = 42 | Delay = 4150 
+			Packet No = 40 | Delay = 4285 
+			Packet No = 39 | Delay = 4417 
+			Packet No = 74 | Delay = 4556 
+
+
+						Slope of delay on the path r1 is 103 unit.
+						Slope of delay on the path r2 is 103 unit.
+
+
+						Total End-to-End delay of 'sensor.txt' from path r1 is 4552 ms.
+						Total End-to-End delay of 'sensor.txt' from path r2 is 4559 ms.
+
+
+Experiment 3.4:
+	End-to-End Delays of 43 reached messages from r1 :
+			Packet No = 0 | Delay = 126 
+			Packet No = 4 | Delay = 126 
+			Packet No = 1 | Delay = 127 
+			Packet No = 6 | Delay = 129 
+			Packet No = 2 | Delay = 134 
+			Packet No = 9 | Delay = 135 
+			Packet No = 7 | Delay = 136 
+			Packet No = 5 | Delay = 138 
+			Packet No = 3 | Delay = 140 
+			Packet No = 8 | Delay = 142 
+			Packet No = 13 | Delay = 205 
+			Packet No = 11 | Delay = 341 
+			Packet No = 14 | Delay = 478 
+			Packet No = 12 | Delay = 613 
+			Packet No = 10 | Delay = 749 
+			Packet No = 15 | Delay = 885 
+			Packet No = 17 | Delay = 1026 
+			Packet No = 18 | Delay = 1157 
+			Packet No = 16 | Delay = 1294 
+			Packet No = 20 | Delay = 1429 
+			Packet No = 23 | Delay = 1564 
+			Packet No = 22 | Delay = 1700 
+			Packet No = 19 | Delay = 1837 
+			Packet No = 24 | Delay = 1972 
+			Packet No = 25 | Delay = 2110 
+			Packet No = 21 | Delay = 2244 
+			Packet No = 28 | Delay = 2380 
+			Packet No = 27 | Delay = 2516 
+			Packet No = 30 | Delay = 2652 
+			Packet No = 29 | Delay = 2788 
+			Packet No = 26 | Delay = 2925 
+			Packet No = 34 | Delay = 3060 
+			Packet No = 32 | Delay = 3196 
+			Packet No = 31 | Delay = 3332 
+			Packet No = 33 | Delay = 3472 
+			Packet No = 36 | Delay = 3604 
+			Packet No = 35 | Delay = 3744 
+			Packet No = 38 | Delay = 3876 
+			Packet No = 37 | Delay = 4014 
+			Packet No = 42 | Delay = 4148 
+			Packet No = 41 | Delay = 4284 
+			Packet No = 44 | Delay = 4422 
+			Packet No = 58 | Delay = 4558 
+
+
+	End-to-End Delays of 43 reached messages from r2 :
+			Packet No = 0 | Delay = 131 
+			Packet No = 6 | Delay = 131 
+			Packet No = 1 | Delay = 132 
+			Packet No = 9 | Delay = 137 
+			Packet No = 3 | Delay = 139 
+			Packet No = 4 | Delay = 141 
+			Packet No = 2 | Delay = 143 
+			Packet No = 5 | Delay = 144 
+			Packet No = 7 | Delay = 145 
+			Packet No = 10 | Delay = 146 
+			Packet No = 11 | Delay = 210 
+			Packet No = 8 | Delay = 346 
+			Packet No = 12 | Delay = 482 
+			Packet No = 15 | Delay = 618 
+			Packet No = 14 | Delay = 754 
+			Packet No = 13 | Delay = 890 
+			Packet No = 21 | Delay = 1026 
+			Packet No = 16 | Delay = 1162 
+			Packet No = 17 | Delay = 1298 
+			Packet No = 19 | Delay = 1434 
+			Packet No = 18 | Delay = 1570 
+			Packet No = 20 | Delay = 1706 
+			Packet No = 25 | Delay = 1841 
+			Packet No = 24 | Delay = 1977 
+			Packet No = 22 | Delay = 2113 
+			Packet No = 23 | Delay = 2249 
+			Packet No = 28 | Delay = 2385 
+			Packet No = 26 | Delay = 2521 
+			Packet No = 27 | Delay = 2657 
+			Packet No = 30 | Delay = 2793 
+			Packet No = 29 | Delay = 2929 
+			Packet No = 31 | Delay = 3065 
+			Packet No = 32 | Delay = 3201 
+			Packet No = 34 | Delay = 3337 
+			Packet No = 33 | Delay = 3473 
+			Packet No = 37 | Delay = 3609 
+			Packet No = 38 | Delay = 3745 
+			Packet No = 36 | Delay = 3881 
+			Packet No = 35 | Delay = 4017 
+			Packet No = 41 | Delay = 4153 
+			Packet No = 39 | Delay = 4289 
+			Packet No = 40 | Delay = 4425 
+			Packet No = 60 | Delay = 4560 
+
+
+						Slope of delay on the path r1 is 103 unit.
+						Slope of delay on the path r2 is 103 unit.
+
+
+						Total End-to-End delay of 'sensor.txt' from path r1 is 4561 ms.
+						Total End-to-End delay of 'sensor.txt' from path r2 is 4563 ms.
+
+Experiment 3.5:
+	End-to-End Delays of 43 reached messages from r1 :
+			Packet No = 0 | Delay = 130 
+			Packet No = 2 | Delay = 131 
+			Packet No = 5 | Delay = 132 
+			Packet No = 8 | Delay = 133 
+			Packet No = 1 | Delay = 134 
+			Packet No = 4 | Delay = 135 
+			Packet No = 3 | Delay = 136 
+			Packet No = 7 | Delay = 136 
+			Packet No = 6 | Delay = 138 
+			Packet No = 11 | Delay = 138 
+			Packet No = 9 | Delay = 209 
+			Packet No = 14 | Delay = 344 
+			Packet No = 10 | Delay = 481 
+			Packet No = 12 | Delay = 616 
+			Packet No = 13 | Delay = 752 
+			Packet No = 15 | Delay = 888 
+			Packet No = 18 | Delay = 1024 
+			Packet No = 16 | Delay = 1161 
+			Packet No = 17 | Delay = 1296 
+			Packet No = 21 | Delay = 1432 
+			Packet No = 19 | Delay = 1568 
+			Packet No = 23 | Delay = 1705 
+			Packet No = 20 | Delay = 1840 
+			Packet No = 25 | Delay = 1976 
+			Packet No = 22 | Delay = 2112 
+			Packet No = 24 | Delay = 2249 
+			Packet No = 26 | Delay = 2385 
+			Packet No = 30 | Delay = 2519 
+			Packet No = 28 | Delay = 2656 
+			Packet No = 29 | Delay = 2792 
+			Packet No = 27 | Delay = 2929 
+			Packet No = 31 | Delay = 3064 
+			Packet No = 35 | Delay = 3200 
+			Packet No = 32 | Delay = 3336 
+			Packet No = 33 | Delay = 3472 
+			Packet No = 34 | Delay = 3608 
+			Packet No = 40 | Delay = 3744 
+			Packet No = 36 | Delay = 3880 
+			Packet No = 37 | Delay = 4016 
+			Packet No = 39 | Delay = 4152 
+			Packet No = 38 | Delay = 4288 
+			Packet No = 43 | Delay = 4424 
+			Packet No = 55 | Delay = 4554 
+
+
+	End-to-End Delays of 43 reached messages from r2 :
+			Packet No = 0 | Delay = 125 
+			Packet No = 1 | Delay = 126 
+			Packet No = 7 | Delay = 127 
+			Packet No = 3 | Delay = 128 
+			Packet No = 5 | Delay = 140 
+			Packet No = 4 | Delay = 141 
+			Packet No = 2 | Delay = 142 
+			Packet No = 9 | Delay = 143 
+			Packet No = 12 | Delay = 143 
+			Packet No = 6 | Delay = 144 
+			Packet No = 11 | Delay = 203 
+			Packet No = 8 | Delay = 340 
+			Packet No = 10 | Delay = 476 
+			Packet No = 14 | Delay = 611 
+			Packet No = 13 | Delay = 747 
+			Packet No = 16 | Delay = 883 
+			Packet No = 18 | Delay = 1019 
+			Packet No = 15 | Delay = 1155 
+			Packet No = 17 | Delay = 1291 
+			Packet No = 19 | Delay = 1427 
+			Packet No = 24 | Delay = 1563 
+			Packet No = 20 | Delay = 1699 
+			Packet No = 21 | Delay = 1835 
+			Packet No = 22 | Delay = 1971 
+			Packet No = 23 | Delay = 2107 
+			Packet No = 25 | Delay = 2243 
+			Packet No = 28 | Delay = 2379 
+			Packet No = 27 | Delay = 2515 
+			Packet No = 30 | Delay = 2650 
+			Packet No = 26 | Delay = 2787 
+			Packet No = 29 | Delay = 2922 
+			Packet No = 34 | Delay = 3058 
+			Packet No = 33 | Delay = 3195 
+			Packet No = 32 | Delay = 3331 
+			Packet No = 36 | Delay = 3467 
+			Packet No = 31 | Delay = 3603 
+			Packet No = 35 | Delay = 3739 
+			Packet No = 39 | Delay = 3874 
+			Packet No = 40 | Delay = 4011 
+			Packet No = 37 | Delay = 4147 
+			Packet No = 41 | Delay = 4283 
+			Packet No = 38 | Delay = 4419 
+			Packet No = 55 | Delay = 4550 
+
+
+						Slope of delay on the path r1 is 102 unit.
+						Slope of delay on the path r2 is 102 unit.
+
+
+						Total End-to-End delay of 'sensor.txt' from path r1 is 4561 ms.
+						Total End-to-End delay of 'sensor.txt' from path r2 is 4557 ms.
+
+
+Experiment 3.6:
+	End-to-End Delays of 43 reached messages from r1 :
+			Packet No = 4 | Delay = 125 
+			Packet No = 0 | Delay = 126 
+			Packet No = 1 | Delay = 129 
+			Packet No = 2 | Delay = 130 
+			Packet No = 3 | Delay = 131 
+			Packet No = 8 | Delay = 132 
+			Packet No = 6 | Delay = 137 
+			Packet No = 5 | Delay = 139 
+			Packet No = 9 | Delay = 142 
+			Packet No = 11 | Delay = 143 
+			Packet No = 7 | Delay = 206 
+			Packet No = 10 | Delay = 343 
+			Packet No = 15 | Delay = 476 
+			Packet No = 14 | Delay = 612 
+			Packet No = 13 | Delay = 749 
+			Packet No = 12 | Delay = 884 
+			Packet No = 19 | Delay = 1022 
+			Packet No = 17 | Delay = 1156 
+			Packet No = 16 | Delay = 1292 
+			Packet No = 18 | Delay = 1428 
+			Packet No = 20 | Delay = 1563 
+			Packet No = 25 | Delay = 1700 
+			Packet No = 22 | Delay = 1839 
+			Packet No = 21 | Delay = 1972 
+			Packet No = 23 | Delay = 2108 
+			Packet No = 26 | Delay = 2244 
+			Packet No = 28 | Delay = 2380 
+			Packet No = 29 | Delay = 2516 
+			Packet No = 24 | Delay = 2652 
+			Packet No = 30 | Delay = 2788 
+			Packet No = 31 | Delay = 2924 
+			Packet No = 27 | Delay = 3060 
+			Packet No = 33 | Delay = 3196 
+			Packet No = 36 | Delay = 3331 
+			Packet No = 35 | Delay = 3468 
+			Packet No = 32 | Delay = 3604 
+			Packet No = 34 | Delay = 3739 
+			Packet No = 37 | Delay = 3875 
+			Packet No = 38 | Delay = 4011 
+			Packet No = 41 | Delay = 4147 
+			Packet No = 39 | Delay = 4283 
+			Packet No = 42 | Delay = 4422 
+			Packet No = 53 | Delay = 4556 
+
+
+	End-to-End Delays of 43 reached messages from r2 :
+			Packet No = 5 | Delay = 134 
+			Packet No = 2 | Delay = 135 
+			Packet No = 6 | Delay = 136 
+			Packet No = 1 | Delay = 138 
+			Packet No = 4 | Delay = 140 
+			Packet No = 3 | Delay = 143 
+			Packet No = 0 | Delay = 145 
+			Packet No = 13 | Delay = 145 
+			Packet No = 7 | Delay = 147 
+			Packet No = 11 | Delay = 146 
+			Packet No = 8 | Delay = 209 
+			Packet No = 10 | Delay = 346 
+			Packet No = 9 | Delay = 481 
+			Packet No = 14 | Delay = 621 
+			Packet No = 12 | Delay = 752 
+			Packet No = 17 | Delay = 888 
+			Packet No = 16 | Delay = 1025 
+			Packet No = 18 | Delay = 1161 
+			Packet No = 15 | Delay = 1296 
+			Packet No = 20 | Delay = 1432 
+			Packet No = 19 | Delay = 1569 
+			Packet No = 21 | Delay = 1708 
+			Packet No = 24 | Delay = 1843 
+			Packet No = 22 | Delay = 1978 
+			Packet No = 26 | Delay = 2118 
+			Packet No = 23 | Delay = 2253 
+			Packet No = 27 | Delay = 2387 
+			Packet No = 25 | Delay = 2521 
+			Packet No = 32 | Delay = 2662 
+			Packet No = 29 | Delay = 2793 
+			Packet No = 28 | Delay = 2933 
+			Packet No = 31 | Delay = 3065 
+			Packet No = 33 | Delay = 3201 
+			Packet No = 34 | Delay = 3341 
+			Packet No = 30 | Delay = 3476 
+			Packet No = 35 | Delay = 3613 
+			Packet No = 39 | Delay = 3744 
+			Packet No = 36 | Delay = 3880 
+			Packet No = 37 | Delay = 4016 
+			Packet No = 41 | Delay = 4154 
+			Packet No = 40 | Delay = 4288 
+			Packet No = 38 | Delay = 4424 
+			Packet No = 59 | Delay = 4561 
+
+
+						Slope of delay on the path r1 is 103 unit.
+						Slope of delay on the path r2 is 102 unit.
+
+
+						Total End-to-End delay of 'sensor.txt' from path r1 is 4558 ms.
+						Total End-to-End delay of 'sensor.txt' from path r2 is 4564 ms.
+
+Experiment 3.7:
+
+	End-to-End Delays of 43 reached messages from r1 :
+			Packet No = 1 | Delay = 122 
+			Packet No = 3 | Delay = 122 
+			Packet No = 0 | Delay = 124 
+			Packet No = 2 | Delay = 124 
+			Packet No = 4 | Delay = 129 
+			Packet No = 6 | Delay = 130 
+			Packet No = 5 | Delay = 131 
+			Packet No = 7 | Delay = 133 
+			Packet No = 8 | Delay = 138 
+			Packet No = 12 | Delay = 140 
+			Packet No = 10 | Delay = 207 
+			Packet No = 9 | Delay = 337 
+			Packet No = 15 | Delay = 472 
+			Packet No = 14 | Delay = 610 
+			Packet No = 11 | Delay = 744 
+			Packet No = 16 | Delay = 880 
+			Packet No = 13 | Delay = 1019 
+			Packet No = 21 | Delay = 1156 
+			Packet No = 20 | Delay = 1288 
+			Packet No = 19 | Delay = 1426 
+			Packet No = 17 | Delay = 1562 
+			Packet No = 22 | Delay = 1697 
+			Packet No = 18 | Delay = 1834 
+			Packet No = 25 | Delay = 1972 
+			Packet No = 23 | Delay = 2103 
+			Packet No = 24 | Delay = 2239 
+			Packet No = 29 | Delay = 2385 
+			Packet No = 31 | Delay = 2515 
+			Packet No = 26 | Delay = 2649 
+			Packet No = 28 | Delay = 2792 
+			Packet No = 27 | Delay = 2925 
+			Packet No = 33 | Delay = 3056 
+			Packet No = 35 | Delay = 3196 
+			Packet No = 32 | Delay = 3328 
+			Packet No = 30 | Delay = 3469 
+			Packet No = 34 | Delay = 3604 
+			Packet No = 36 | Delay = 3737 
+			Packet No = 39 | Delay = 3872 
+			Packet No = 40 | Delay = 4008 
+			Packet No = 38 | Delay = 4149 
+			Packet No = 37 | Delay = 4280 
+			Packet No = 44 | Delay = 4422 
+			Packet No = 56 | Delay = 4550 
+
+
+	End-to-End Delays of 43 reached messages from r2 :
+			Packet No = 1 | Delay = 126 
+			Packet No = 0 | Delay = 127 
+			Packet No = 3 | Delay = 128 
+			Packet No = 4 | Delay = 132 
+			Packet No = 2 | Delay = 134 
+			Packet No = 6 | Delay = 135 
+			Packet No = 5 | Delay = 136 
+			Packet No = 11 | Delay = 138 
+			Packet No = 10 | Delay = 139 
+			Packet No = 7 | Delay = 141 
+			Packet No = 13 | Delay = 200 
+			Packet No = 8 | Delay = 343 
+			Packet No = 9 | Delay = 473 
+			Packet No = 14 | Delay = 611 
+			Packet No = 12 | Delay = 745 
+			Packet No = 17 | Delay = 882 
+			Packet No = 15 | Delay = 1016 
+			Packet No = 16 | Delay = 1159 
+			Packet No = 21 | Delay = 1291 
+			Packet No = 20 | Delay = 1431 
+			Packet No = 18 | Delay = 1560 
+			Packet No = 19 | Delay = 1698 
+			Packet No = 25 | Delay = 1831 
+			Packet No = 22 | Delay = 1970 
+			Packet No = 23 | Delay = 2104 
+			Packet No = 27 | Delay = 2244 
+			Packet No = 24 | Delay = 2386 
+			Packet No = 29 | Delay = 2512 
+			Packet No = 26 | Delay = 2648 
+			Packet No = 28 | Delay = 2790 
+			Packet No = 32 | Delay = 2926 
+			Packet No = 31 | Delay = 3058 
+			Packet No = 34 | Delay = 3197 
+			Packet No = 30 | Delay = 3327 
+			Packet No = 35 | Delay = 3470 
+			Packet No = 33 | Delay = 3603 
+			Packet No = 36 | Delay = 3742 
+			Packet No = 38 | Delay = 3871 
+			Packet No = 37 | Delay = 4007 
+			Packet No = 40 | Delay = 4150 
+			Packet No = 39 | Delay = 4279 
+			Packet No = 41 | Delay = 4417 
+			Packet No = 55 | Delay = 4555 
+
+
+						Slope of delay on the path r1 is 102 unit.
+						Slope of delay on the path r2 is 103 unit.
+
+
+						Total End-to-End delay of 'sensor.txt' from path r1 is 4553 ms.
+						Total End-to-End delay of 'sensor.txt' from path r2 is 4558 ms.
+
+
+
+Experiment 3.8:
+
+	End-to-End Delays of 43 reached messages from r1 :
+			Packet No = 0 | Delay = 125 
+			Packet No = 8 | Delay = 127 
+			Packet No = 1 | Delay = 128 
+			Packet No = 3 | Delay = 129 
+			Packet No = 5 | Delay = 130 
+			Packet No = 2 | Delay = 131 
+			Packet No = 7 | Delay = 132 
+			Packet No = 4 | Delay = 135 
+			Packet No = 6 | Delay = 137 
+			Packet No = 12 | Delay = 139 
+			Packet No = 10 | Delay = 205 
+			Packet No = 9 | Delay = 340 
+			Packet No = 13 | Delay = 477 
+			Packet No = 15 | Delay = 613 
+			Packet No = 11 | Delay = 749 
+			Packet No = 17 | Delay = 884 
+			Packet No = 18 | Delay = 1021 
+			Packet No = 16 | Delay = 1157 
+			Packet No = 14 | Delay = 1293 
+			Packet No = 19 | Delay = 1429 
+			Packet No = 20 | Delay = 1565 
+			Packet No = 22 | Delay = 1700 
+			Packet No = 21 | Delay = 1836 
+			Packet No = 23 | Delay = 1972 
+			Packet No = 27 | Delay = 2108 
+			Packet No = 24 | Delay = 2244 
+			Packet No = 26 | Delay = 2382 
+			Packet No = 29 | Delay = 2516 
+			Packet No = 25 | Delay = 2652 
+			Packet No = 30 | Delay = 2789 
+			Packet No = 28 | Delay = 2924 
+			Packet No = 32 | Delay = 3060 
+			Packet No = 33 | Delay = 3196 
+			Packet No = 31 | Delay = 3332 
+			Packet No = 36 | Delay = 3468 
+			Packet No = 34 | Delay = 3604 
+			Packet No = 35 | Delay = 3740 
+			Packet No = 39 | Delay = 3876 
+			Packet No = 40 | Delay = 4012 
+			Packet No = 37 | Delay = 4148 
+			Packet No = 38 | Delay = 4284 
+			Packet No = 44 | Delay = 4420 
+			Packet No = 56 | Delay = 4555 
+
+
+	End-to-End Delays of 43 reached messages from r2 :
+			Packet No = 2 | Delay = 131 
+			Packet No = 0 | Delay = 133 
+			Packet No = 3 | Delay = 136 
+			Packet No = 1 | Delay = 138 
+			Packet No = 7 | Delay = 140 
+			Packet No = 5 | Delay = 141 
+			Packet No = 4 | Delay = 142 
+			Packet No = 8 | Delay = 143 
+			Packet No = 11 | Delay = 144 
+			Packet No = 6 | Delay = 145 
+			Packet No = 10 | Delay = 203 
+			Packet No = 14 | Delay = 339 
+			Packet No = 9 | Delay = 475 
+			Packet No = 12 | Delay = 612 
+			Packet No = 17 | Delay = 747 
+			Packet No = 16 | Delay = 883 
+			Packet No = 15 | Delay = 1019 
+			Packet No = 13 | Delay = 1155 
+			Packet No = 19 | Delay = 1292 
+			Packet No = 18 | Delay = 1427 
+			Packet No = 24 | Delay = 1562 
+			Packet No = 22 | Delay = 1698 
+			Packet No = 20 | Delay = 1835 
+			Packet No = 26 | Delay = 1970 
+			Packet No = 23 | Delay = 2106 
+			Packet No = 21 | Delay = 2242 
+			Packet No = 28 | Delay = 2383 
+			Packet No = 29 | Delay = 2515 
+			Packet No = 27 | Delay = 2651 
+			Packet No = 25 | Delay = 2787 
+			Packet No = 30 | Delay = 2923 
+			Packet No = 31 | Delay = 3058 
+			Packet No = 35 | Delay = 3197 
+			Packet No = 34 | Delay = 3330 
+			Packet No = 37 | Delay = 3466 
+			Packet No = 32 | Delay = 3605 
+			Packet No = 33 | Delay = 3738 
+			Packet No = 36 | Delay = 3874 
+			Packet No = 40 | Delay = 4010 
+			Packet No = 39 | Delay = 4149 
+			Packet No = 38 | Delay = 4282 
+			Packet No = 41 | Delay = 4418 
+			Packet No = 54 | Delay = 4556 
+
+
+						Slope of delay on the path r1 is 103 unit.
+						Slope of delay on the path r2 is 102 unit.
+
+
+						Total End-to-End delay of 'sensor.txt' from path r1 is 4557 ms.
+						Total End-to-End delay of 'sensor.txt' from path r2 is 4558 ms.
+
+Experiment 3.9:
+
+	End-to-End Delays of 43 reached messages from r1 :
+			Packet No = 4 | Delay = 124 
+			Packet No = 0 | Delay = 126 
+			Packet No = 1 | Delay = 126 
+			Packet No = 3 | Delay = 127 
+			Packet No = 2 | Delay = 133 
+			Packet No = 8 | Delay = 134 
+			Packet No = 5 | Delay = 135 
+			Packet No = 6 | Delay = 136 
+			Packet No = 10 | Delay = 139 
+			Packet No = 7 | Delay = 141 
+			Packet No = 9 | Delay = 203 
+			Packet No = 11 | Delay = 341 
+			Packet No = 14 | Delay = 475 
+			Packet No = 13 | Delay = 614 
+			Packet No = 12 | Delay = 747 
+			Packet No = 17 | Delay = 883 
+			Packet No = 15 | Delay = 1019 
+			Packet No = 16 | Delay = 1155 
+			Packet No = 18 | Delay = 1294 
+			Packet No = 20 | Delay = 1430 
+			Packet No = 19 | Delay = 1563 
+			Packet No = 23 | Delay = 1700 
+			Packet No = 21 | Delay = 1835 
+			Packet No = 22 | Delay = 1973 
+			Packet No = 25 | Delay = 2108 
+			Packet No = 28 | Delay = 2242 
+			Packet No = 24 | Delay = 2378 
+			Packet No = 30 | Delay = 2515 
+			Packet No = 26 | Delay = 2653 
+			Packet No = 32 | Delay = 2786 
+			Packet No = 31 | Delay = 2922 
+			Packet No = 27 | Delay = 3058 
+			Packet No = 33 | Delay = 3197 
+			Packet No = 29 | Delay = 3332 
+			Packet No = 35 | Delay = 3466 
+			Packet No = 34 | Delay = 3602 
+			Packet No = 36 | Delay = 3740 
+			Packet No = 37 | Delay = 3874 
+			Packet No = 38 | Delay = 4010 
+			Packet No = 41 | Delay = 4146 
+			Packet No = 40 | Delay = 4283 
+			Packet No = 39 | Delay = 4420 
+			Packet No = 60 | Delay = 4553 
+
+
+	End-to-End Delays of 43 reached messages from r2 :
+			Packet No = 1 | Delay = 128 
+			Packet No = 0 | Delay = 130 
+			Packet No = 2 | Delay = 130 
+			Packet No = 6 | Delay = 132 
+			Packet No = 3 | Delay = 136 
+			Packet No = 4 | Delay = 139 
+			Packet No = 7 | Delay = 142 
+			Packet No = 5 | Delay = 143 
+			Packet No = 10 | Delay = 144 
+			Packet No = 8 | Delay = 145 
+			Packet No = 11 | Delay = 204 
+			Packet No = 9 | Delay = 339 
+			Packet No = 14 | Delay = 476 
+			Packet No = 15 | Delay = 611 
+			Packet No = 16 | Delay = 748 
+			Packet No = 13 | Delay = 884 
+			Packet No = 18 | Delay = 1020 
+			Packet No = 12 | Delay = 1156 
+			Packet No = 17 | Delay = 1291 
+			Packet No = 19 | Delay = 1427 
+			Packet No = 20 | Delay = 1564 
+			Packet No = 21 | Delay = 1701 
+			Packet No = 23 | Delay = 1836 
+			Packet No = 24 | Delay = 1971 
+			Packet No = 22 | Delay = 2107 
+			Packet No = 25 | Delay = 2243 
+			Packet No = 28 | Delay = 2379 
+			Packet No = 27 | Delay = 2514 
+			Packet No = 30 | Delay = 2650 
+			Packet No = 29 | Delay = 2787 
+			Packet No = 26 | Delay = 2924 
+			Packet No = 36 | Delay = 3060 
+			Packet No = 33 | Delay = 3194 
+			Packet No = 32 | Delay = 3330 
+			Packet No = 31 | Delay = 3467 
+			Packet No = 34 | Delay = 3603 
+			Packet No = 38 | Delay = 3738 
+			Packet No = 37 | Delay = 3875 
+			Packet No = 40 | Delay = 4011 
+			Packet No = 35 | Delay = 4147 
+			Packet No = 41 | Delay = 4282 
+			Packet No = 43 | Delay = 4418 
+			Packet No = 51 | Delay = 4554 
+
+
+						Slope of delay on the path r1 is 103 unit.
+						Slope of delay on the path r2 is 102 unit.
+
+
+						Total End-to-End delay of 'sensor.txt' from path r1 is 4556 ms.
+						Total End-to-End delay of 'sensor.txt' from path r2 is 4557 ms.
+
+
+Experiment 3.10:
+
+	End-to-End Delays of 43 reached messages from r1 :
+			Packet No = 3 | Delay = 124 
+			Packet No = 2 | Delay = 125 
+			Packet No = 5 | Delay = 126 
+			Packet No = 0 | Delay = 128 
+			Packet No = 4 | Delay = 128 
+			Packet No = 1 | Delay = 129 
+			Packet No = 12 | Delay = 130 
+			Packet No = 8 | Delay = 131 
+			Packet No = 6 | Delay = 136 
+			Packet No = 7 | Delay = 137 
+			Packet No = 9 | Delay = 204 
+			Packet No = 10 | Delay = 340 
+			Packet No = 11 | Delay = 476 
+			Packet No = 15 | Delay = 612 
+			Packet No = 16 | Delay = 748 
+			Packet No = 13 | Delay = 884 
+			Packet No = 14 | Delay = 1020 
+			Packet No = 17 | Delay = 1156 
+			Packet No = 19 | Delay = 1292 
+			Packet No = 18 | Delay = 1428 
+			Packet No = 22 | Delay = 1564 
+			Packet No = 20 | Delay = 1700 
+			Packet No = 21 | Delay = 1836 
+			Packet No = 26 | Delay = 1971 
+			Packet No = 23 | Delay = 2108 
+			Packet No = 25 | Delay = 2243 
+			Packet No = 28 | Delay = 2379 
+			Packet No = 24 | Delay = 2515 
+			Packet No = 29 | Delay = 2651 
+			Packet No = 27 | Delay = 2787 
+			Packet No = 31 | Delay = 2923 
+			Packet No = 30 | Delay = 3059 
+			Packet No = 33 | Delay = 3195 
+			Packet No = 32 | Delay = 3331 
+			Packet No = 35 | Delay = 3467 
+			Packet No = 37 | Delay = 3603 
+			Packet No = 34 | Delay = 3739 
+			Packet No = 36 | Delay = 3875 
+			Packet No = 41 | Delay = 4011 
+			Packet No = 40 | Delay = 4147 
+			Packet No = 38 | Delay = 4284 
+			Packet No = 44 | Delay = 4419 
+			Packet No = 55 | Delay = 4554 
+
+
+	End-to-End Delays of 43 reached messages from r2 :
+			Packet No = 0 | Delay = 118 
+			Packet No = 7 | Delay = 132 
+			Packet No = 5 | Delay = 133 
+			Packet No = 6 | Delay = 134 
+			Packet No = 3 | Delay = 137 
+			Packet No = 2 | Delay = 138 
+			Packet No = 8 | Delay = 139 
+			Packet No = 4 | Delay = 140 
+			Packet No = 1 | Delay = 141 
+			Packet No = 9 | Delay = 142 
+			Packet No = 10 | Delay = 196 
+			Packet No = 14 | Delay = 332 
+			Packet No = 13 | Delay = 468 
+			Packet No = 11 | Delay = 607 
+			Packet No = 12 | Delay = 741 
+			Packet No = 16 | Delay = 876 
+			Packet No = 17 | Delay = 1013 
+			Packet No = 18 | Delay = 1152 
+			Packet No = 15 | Delay = 1284 
+			Packet No = 19 | Delay = 1425 
+			Packet No = 22 | Delay = 1557 
+			Packet No = 20 | Delay = 1692 
+			Packet No = 24 | Delay = 1829 
+			Packet No = 26 | Delay = 1963 
+			Packet No = 21 | Delay = 2104 
+			Packet No = 23 | Delay = 2236 
+			Packet No = 25 | Delay = 2375 
+			Packet No = 28 | Delay = 2507 
+			Packet No = 27 | Delay = 2643 
+			Packet No = 31 | Delay = 2781 
+			Packet No = 29 | Delay = 2915 
+			Packet No = 30 | Delay = 3052 
+			Packet No = 35 | Delay = 3189 
+			Packet No = 32 | Delay = 3324 
+			Packet No = 37 | Delay = 3463 
+			Packet No = 33 | Delay = 3596 
+			Packet No = 36 | Delay = 3735 
+			Packet No = 34 | Delay = 3873 
+			Packet No = 41 | Delay = 4007 
+			Packet No = 42 | Delay = 4140 
+			Packet No = 40 | Delay = 4279 
+			Packet No = 43 | Delay = 4412 
+			Packet No = 54 | Delay = 4550 
+
+
+						Slope of delay on the path r1 is 103 unit.
+						Slope of delay on the path r2 is 103 unit.
+
+
+						Total End-to-End delay of 'sensor.txt' from path r1 is 4557 ms.
+						Total End-to-End delay of 'sensor.txt' from path r2 is 4553 ms.
+
+
+
+

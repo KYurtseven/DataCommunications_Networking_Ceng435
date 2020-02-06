@@ -1,0 +1,49 @@
+%1 reorder
+tc qdisc change dev [INTERFACE] root netem loss 0% corrupt 0% duplicate 0% delay 3 ms reorder 1% 50%
+
+50188, 50188, 50188, 50190, 50188, 50188, 50192, 50188,50188, 50188
+
+%10 reorder
+tc qdisc change dev [INTERFACE] root netem loss 0% corrupt 0% duplicate 0% delay 3 ms reorder 10% 50%
+50188,  50188, 50188, 50188, 50188, 50190, 50188, 50188, 50188, 50188,
+
+%35 reorder
+tc qdisc change dev [INTERFACE] root netem loss 0% corrupt 0% duplicate 0% delay 3 ms reorder 35% 50%
+
+1746839, 1807035, 1826798, 1784142, 1786278, 1753793, 1754257, 1797597, 1819483, 1826519
+
+
+
+data =[
+50188 50188 1746839;
+50188 50188 1807035;
+50188 50188 1826798;
+50190 50188 1784142;
+50188 50188 1786278;
+50188 50190 1753793;
+50192 50188 1754257;
+50188 50188 1797597;
+50188 50188 1819483;
+50188 50188 1826519;
+]
+
+dmean = mean(data);                                                 % Mean
+display(dmean)
+dci  = std(data)*tinv(0.975,size(data,1)-1);                        % Confidence Intervals
+xt = [1:3];                                                         % X-Ticks
+xtd = repmat(xt, size(data,1), 1);                                  % X-Ticks For Data
+sb = [xt'-ones(size(data,2),1)*0.1,  xt'+ones(size(data,2),1)*0.1]; % Short Bar X
+lb = [xt'-ones(size(data,2),1)*0.2,  xt'+ones(size(data,2),1)*0.2]; % Long Bar X
+figure(1)
+plot(xt, data, '+')
+hold on
+for k1 = 1:size(data,2)
+    plot(lb(k1,:), [1 1]*dmean(k1), sb(k1,:), [1 1]*(dmean(k1)-dci(k1)), sb(k1,:), [1 1]*(dmean(k1)+dci(k1)), '-k')
+end
+hold off
+set(gca, 'XTick', xt, 'XTickLabel', {'%1 Reorder','%10 Reorder','%35 Reorder'})
+title('Experiment 3, File transfer time(ms) vs Reorder Graph')
+xlabel('Experiment Name')
+ylabel('File transfer time(ms)')
+
+

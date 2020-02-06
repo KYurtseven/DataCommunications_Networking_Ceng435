@@ -1,0 +1,15 @@
+S:
+ssh -i ~/.ssh/id_geni_ssh_rsa e2099547@pc1.geni.it.cornell.edu -p 27246
+
+B:
+ssh -i ~/.ssh/id_geni_ssh_rsa e2099547@pc1.geni.it.cornell.edu -p 27242
+
+r1:
+ssh -i ~/.ssh/id_geni_ssh_rsa e2099547@pc1.geni.it.cornell.edu -p 27244
+
+r2:
+ssh -i ~/.ssh/id_geni_ssh_rsa e2099547@pc1.geni.it.cornell.edu -p 27245
+
+d:
+ssh -i ~/.ssh/id_geni_ssh_rsa e2099547@pc1.geni.it.cornell.edu -p 27243
+
